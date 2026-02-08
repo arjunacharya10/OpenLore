@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26AB289A2F3861760087EA8C /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26AB28992F3861760087EA8C /* rain.mp3 */; };
+		26AB289B2F3861760087EA8C /* forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26AB28972F3861760087EA8C /* forest.mp3 */; };
+		26AB289C2F3861760087EA8C /* ocean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26AB28982F3861760087EA8C /* ocean.mp3 */; };
+		26AB289D2F3861760087EA8C /* dreams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26AB28962F3861760087EA8C /* dreams.mp3 */; };
 		26BC8B332F38235400FB246C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 26BC8B322F38235400FB246C /* README.md */; };
 		26BC8B352F38239800FB246C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 26BC8B342F38239800FB246C /* LICENSE */; };
 		26BC8B372F38239800FB246C /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = 26BC8B362F38239800FB246C /* CONTRIBUTING.md */; };
@@ -34,6 +38,10 @@
 		264FAB2B2F38027A00B7A489 /* OpenLore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenLore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		264FAB382F38027D00B7A489 /* OpenLoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenLoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		264FAB422F38027D00B7A489 /* OpenLoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenLoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26AB28962F3861760087EA8C /* dreams.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dreams.mp3; sourceTree = "<group>"; };
+		26AB28972F3861760087EA8C /* forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forest.mp3; sourceTree = "<group>"; };
+		26AB28982F3861760087EA8C /* ocean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ocean.mp3; sourceTree = "<group>"; };
+		26AB28992F3861760087EA8C /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
 		26BC8B322F38235400FB246C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26BC8B342F38239800FB246C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		26BC8B362F38239800FB246C /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
@@ -86,6 +94,10 @@
 		264FAB222F38027A00B7A489 = {
 			isa = PBXGroup;
 			children = (
+				26AB28962F3861760087EA8C /* dreams.mp3 */,
+				26AB28972F3861760087EA8C /* forest.mp3 */,
+				26AB28982F3861760087EA8C /* ocean.mp3 */,
+				26AB28992F3861760087EA8C /* rain.mp3 */,
 				264FAB2D2F38027A00B7A489 /* OpenLore */,
 				264FAB3B2F38027D00B7A489 /* OpenLoreTests */,
 				264FAB452F38027D00B7A489 /* OpenLoreUITests */,
@@ -230,6 +242,10 @@
 				26BC8B332F38235400FB246C /* README.md in Resources */,
 				26BC8B372F38239800FB246C /* CONTRIBUTING.md in Resources */,
 				26BC8B352F38239800FB246C /* LICENSE in Resources */,
+				26AB289A2F3861760087EA8C /* rain.mp3 in Resources */,
+				26AB289B2F3861760087EA8C /* forest.mp3 in Resources */,
+				26AB289C2F3861760087EA8C /* ocean.mp3 in Resources */,
+				26AB289D2F3861760087EA8C /* dreams.mp3 in Resources */,
 				26BC8B392F38239800FB246C /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
