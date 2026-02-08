@@ -10,6 +10,7 @@ class WritingTracker: ObservableObject {
     @Published var goalWords: Int = 2000
     @Published var progress: Double = 0.0
     @Published var hasAccessibilityPermission: Bool = false
+    @Published var isTimerRunning: Bool = false
 
     private var wordCountTimer: Timer?
     private var focusTimer: Timer?
@@ -21,16 +22,29 @@ class WritingTracker: ObservableObject {
     }
 
     func startTimers() {
-        // Word count polling every 1 second
+        // Word count polling every 1 second (always running)
         wordCountTimer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { [weak self] _ in
             guard let self = self else { return }
             self.updateWordCount()
         }
 
-        // Focus timer every 60 seconds
-        focusTimer = Timer.scheduledTimer(withTimeInterval: 60.0, repeats: true) { [weak self] _ in
-            guard let self = self else { return }
-            self.focusMinutes += 1
+        // Focus timer starts in stopped state
+        isTimerRunning = false
+    }
+    
+    func toggleTimer() {
+        isTimerRunning.toggle()
+        
+        if isTimerRunning {
+            // Start focus timer every 60 seconds
+            focusTimer = Timer.scheduledTimer(withTimeInterval: 60.0, repeats: true) { [weak self] _ in
+                guard let self = self else { return }
+                self.focusMinutes += 1
+            }
+        } else {
+            // Stop focus timer
+            focusTimer?.invalidate()
+            focusTimer = nil
         }
     }
 
@@ -61,6 +75,10 @@ class WritingTracker: ObservableObject {
 
     func resetTimer() {
         focusMinutes = 0
+        // Stop timer if it's running
+        if isTimerRunning {
+            toggleTimer()
+        }
     }
 
     func updateGoal(_ newGoal: Int) {

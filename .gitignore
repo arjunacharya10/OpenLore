@@ -155,3 +155,8 @@ coverage/
 # Personal Notes
 TODO.md
 NOTES.md
+# Audio files (too large for git)
+*.mp3
+*.m4a
+*.wav
+
