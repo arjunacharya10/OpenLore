@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26BC8B332F38235400FB246C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 26BC8B322F38235400FB246C /* README.md */; };
+		26BC8B352F38239800FB246C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 26BC8B342F38239800FB246C /* LICENSE */; };
+		26BC8B372F38239800FB246C /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = 26BC8B362F38239800FB246C /* CONTRIBUTING.md */; };
+		26BC8B392F38239800FB246C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 26BC8B382F38239800FB246C /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		264FAB392F38027D00B7A489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264FAB232F38027A00B7A489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264FAB2A2F38027A00B7A489;
+			remoteInfo = DeskBuddy;
+		};
+		264FAB432F38027D00B7A489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264FAB232F38027A00B7A489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264FAB2A2F38027A00B7A489;
+			remoteInfo = DeskBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		264FAB2B2F38027A00B7A489 /* OpenLore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenLore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		264FAB382F38027D00B7A489 /* OpenLoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenLoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		264FAB422F38027D00B7A489 /* OpenLoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenLoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BC8B322F38235400FB246C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26BC8B342F38239800FB246C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		26BC8B362F38239800FB246C /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		26BC8B382F38239800FB246C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		264FAB2D2F38027A00B7A489 /* OpenLore */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenLore;
+			sourceTree = "<group>";
+		};
+		264FAB3B2F38027D00B7A489 /* OpenLoreTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenLoreTests;
+			sourceTree = "<group>";
+		};
+		264FAB452F38027D00B7A489 /* OpenLoreUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenLoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		264FAB282F38027A00B7A489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264FAB352F38027D00B7A489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264FAB3F2F38027D00B7A489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264FAB222F38027A00B7A489 = {
+			isa = PBXGroup;
+			children = (
+				264FAB2D2F38027A00B7A489 /* OpenLore */,
+				264FAB3B2F38027D00B7A489 /* OpenLoreTests */,
+				264FAB452F38027D00B7A489 /* OpenLoreUITests */,
+				264FAB2C2F38027A00B7A489 /* Products */,
+				26BC8B322F38235400FB246C /* README.md */,
+				26BC8B342F38239800FB246C /* LICENSE */,
+				26BC8B362F38239800FB246C /* CONTRIBUTING.md */,
+				26BC8B382F38239800FB246C /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		264FAB2C2F38027A00B7A489 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				264FAB2B2F38027A00B7A489 /* OpenLore.app */,
+				264FAB382F38027D00B7A489 /* OpenLoreTests.xctest */,
+				264FAB422F38027D00B7A489 /* OpenLoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		264FAB2A2F38027A00B7A489 /* OpenLore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264FAB4C2F38027D00B7A489 /* Build configuration list for PBXNativeTarget "OpenLore" */;
+			buildPhases = (
+				264FAB272F38027A00B7A489 /* Sources */,
+				264FAB282F38027A00B7A489 /* Frameworks */,
+				264FAB292F38027A00B7A489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				264FAB2D2F38027A00B7A489 /* OpenLore */,
+			);
+			name = OpenLore;
+			packageProductDependencies = (
+			);
+			productName = DeskBuddy;
+			productReference = 264FAB2B2F38027A00B7A489 /* OpenLore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		264FAB372F38027D00B7A489 /* OpenLoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264FAB4F2F38027D00B7A489 /* Build configuration list for PBXNativeTarget "OpenLoreTests" */;
+			buildPhases = (
+				264FAB342F38027D00B7A489 /* Sources */,
+				264FAB352F38027D00B7A489 /* Frameworks */,
+				264FAB362F38027D00B7A489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264FAB3A2F38027D00B7A489 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				264FAB3B2F38027D00B7A489 /* OpenLoreTests */,
+			);
+			name = OpenLoreTests;
+			packageProductDependencies = (
+			);
+			productName = DeskBuddyTests;
+			productReference = 264FAB382F38027D00B7A489 /* OpenLoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		264FAB412F38027D00B7A489 /* OpenLoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264FAB522F38027D00B7A489 /* Build configuration list for PBXNativeTarget "OpenLoreUITests" */;
+			buildPhases = (
+				264FAB3E2F38027D00B7A489 /* Sources */,
+				264FAB3F2F38027D00B7A489 /* Frameworks */,
+				264FAB402F38027D00B7A489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264FAB442F38027D00B7A489 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				264FAB452F38027D00B7A489 /* OpenLoreUITests */,
+			);
+			name = OpenLoreUITests;
+			packageProductDependencies = (
+			);
+			productName = DeskBuddyUITests;
+			productReference = 264FAB422F38027D00B7A489 /* OpenLoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264FAB232F38027A00B7A489 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					264FAB2A2F38027A00B7A489 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					264FAB372F38027D00B7A489 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 264FAB2A2F38027A00B7A489;
+					};
+					264FAB412F38027D00B7A489 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 264FAB2A2F38027A00B7A489;
+					};
+				};
+			};
+			buildConfigurationList = 264FAB262F38027A00B7A489 /* Build configuration list for PBXProject "OpenLore" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 264FAB222F38027A00B7A489;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 264FAB2C2F38027A00B7A489 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				264FAB2A2F38027A00B7A489 /* OpenLore */,
+				264FAB372F38027D00B7A489 /* OpenLoreTests */,
+				264FAB412F38027D00B7A489 /* OpenLoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		264FAB292F38027A00B7A489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BC8B332F38235400FB246C /* README.md in Resources */,
+				26BC8B372F38239800FB246C /* CONTRIBUTING.md in Resources */,
+				26BC8B352F38239800FB246C /* LICENSE in Resources */,
+				26BC8B392F38239800FB246C /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264FAB362F38027D00B7A489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264FAB402F38027D00B7A489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264FAB272F38027A00B7A489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264FAB342F38027D00B7A489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264FAB3E2F38027D00B7A489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		264FAB3A2F38027D00B7A489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264FAB2A2F38027A00B7A489 /* OpenLore */;
+			targetProxy = 264FAB392F38027D00B7A489 /* PBXContainerItemProxy */;
+		};
+		264FAB442F38027D00B7A489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264FAB2A2F38027A00B7A489 /* OpenLore */;
+			targetProxy = 264FAB432F38027D00B7A489 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		264FAB4A2F38027D00B7A489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		264FAB4B2F38027D00B7A489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		264FAB4D2F38027D00B7A489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpenLore/OpenLore.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C74QBBS3U;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arjun.OpenLore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		264FAB4E2F38027D00B7A489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpenLore/OpenLore.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C74QBBS3U;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arjun.OpenLore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		264FAB502F38027D00B7A489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arjun.DeskBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenLore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenLore";
+			};
+			name = Debug;
+		};
+		264FAB512F38027D00B7A489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arjun.DeskBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenLore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenLore";
+			};
+			name = Release;
+		};
+		264FAB532F38027D00B7A489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arjun.DeskBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DeskBuddy;
+			};
+			name = Debug;
+		};
+		264FAB542F38027D00B7A489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arjun.DeskBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DeskBuddy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264FAB262F38027A00B7A489 /* Build configuration list for PBXProject "OpenLore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264FAB4A2F38027D00B7A489 /* Debug */,
+				264FAB4B2F38027D00B7A489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264FAB4C2F38027D00B7A489 /* Build configuration list for PBXNativeTarget "OpenLore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264FAB4D2F38027D00B7A489 /* Debug */,
+				264FAB4E2F38027D00B7A489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264FAB4F2F38027D00B7A489 /* Build configuration list for PBXNativeTarget "OpenLoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264FAB502F38027D00B7A489 /* Debug */,
+				264FAB512F38027D00B7A489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264FAB522F38027D00B7A489 /* Build configuration list for PBXNativeTarget "OpenLoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264FAB532F38027D00B7A489 /* Debug */,
+				264FAB542F38027D00B7A489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 264FAB232F38027A00B7A489 /* Project object */;
+}
